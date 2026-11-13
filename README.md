@@ -85,129 +85,129 @@ The commercial SaaS search ecosystem ranked in descending order by enterprise co
 
 ## 🟩 Open-Source Search Engines & Indexers
 
-Open-source real-time search frameworks, filesystem crawlers, and metadata query engines, **ranked in descending order by GitHub star count**:
+Open-source real-time search frameworks, filesystem crawlers, and metadata query engines, **ranked in descending order by GitHub Stars_Count**:
 
 ### 1. [junegunn/fzf](https://github.com/junegunn/fzf)
-[![GitHub stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers)  
 **Stack:** Go | **License:** MIT | **Latency:** Sub-millisecond  
 An interactive Unix command-line fuzzy finder with real-time feedback. While not a background indexing daemon, it streams and matches tens of thousands of file paths, directory metadata, git commits, and shell history lines with instant interactive responsiveness.  
 * **Key Capabilities:** Interactive streaming, asynchronous fuzzy matching, preview window for metadata and content, seamless shell integrations.  
 * **Ideal For:** CLI power users, shell scripting, and instant interactive file navigation.
 
 ### 2. [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-[![GitHub stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=social&color=white)](https://github.com/BurntSushi/ripgrep/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=social&color=white)](https://github.com/BurntSushi/ripgrep/stargazers)  
 **Stack:** Rust | **License:** MIT / Unlicense | **Latency:** Near-instantaneous  
 A line-oriented search tool that recursively searches directories for regex patterns while respecting `.gitignore`. Combines Rust's regex engine with multi-threaded directory walking and memory-mapped files to inspect directory structures and file contents faster than GNU grep.  
 * **Key Capabilities:** High-performance recursive walker, file-type filtering, unicode & zip search support, ignore rule caching.  
 * **Ideal For:** Large source-code trees, automated grep pipelines, and developer search tools.
 
 ### 3. [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
-[![GitHub stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)  
 **Stack:** Rust | **License:** MIT | **Latency:** <50ms  
 A lightning-fast, open-source search engine designed for instant search experiences. Features sub-50ms search-as-you-type, typo tolerance, faceted metadata filtering, geosearch, sorting, hybrid semantic search, and out-of-the-box MCP integration for AI agents.  
 * **Key Capabilities:** Instant query latency, RESTful API, zero-configuration setup, AI/MCP connectors.  
 * **Ideal For:** Application databases, website search bars, e-commerce document search, and local AI agent memory.
 
 ### 4. [sharkdp/fd](https://github.com/sharkdp/fd)
-[![GitHub stars](https://img.shields.io/github/stars/sharkdp/fd?style=social&color=white)](https://github.com/sharkdp/fd/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/sharkdp/fd?style=social&color=white)](https://github.com/sharkdp/fd/stargazers)  
 **Stack:** Rust | **License:** MIT / Apache-2.0 | **Latency:** Instant  
 A simple, fast, and user-friendly alternative to `find`. Executes parallel directory traversal across multiple CPU threads, automatically ignores hidden directories and `.gitignore` patterns, and filters by file extension, size, modification date, and ownership metadata.  
 * **Key Capabilities:** Multi-threaded filesystem traversal, regex pattern matching, metadata attribute filtering (time/size/type), colorized terminal output.  
 * **Ideal For:** Real-time terminal file discovery, bash automation, and fast filesystem inspection.
 
 ### 5. [typesense/typesense](https://github.com/typesense/typesense)
-[![GitHub stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)  
 **Stack:** C++ | **License:** GPL-3.0 | **Latency:** Sub-50ms  
 An open-source, typo-tolerant search engine optimized for sub-50ms search-as-you-type performance. Positioned as an easy-to-operate, memory-efficient alternative to Elasticsearch and an open-source equivalent to Algolia for structured metadata documents.  
 * **Key Capabilities:** In-memory index structures, dynamic geo-search, faceted filtering, semantic search, high availability clustering.  
 * **Ideal For:** Microservices, SaaS platforms, and digital catalogs requiring instant search without complex JVM overhead.
 
 ### 6. [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy)
-[![GitHub stars](https://img.shields.io/github/stars/quickwit-oss/tantivy?style=social&color=white)](https://github.com/quickwit-oss/tantivy/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/quickwit-oss/tantivy?style=social&color=white)](https://github.com/quickwit-oss/tantivy/stargazers)  
 **Stack:** Rust | **License:** MIT | **Latency:** Sub-millisecond  
 A full-text search engine library written in Rust, inspired by Apache Lucene. Tantivy serves as the high-performance search kernel powering modern decentralized and local search engines, delivering fast indexing throughput and low query latency across document metadata fields.  
 * **Key Capabilities:** BM25 scoring, fast field indexing, memory-mapped inverted indices, schema-driven metadata fields.  
 * **Ideal For:** Engine builders creating embedded search applications and high-throughput log indexers.
 
 ### 7. [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata)
-[![GitHub stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)  
 **Stack:** Java / Python / TypeScript | **License:** Apache-2.0 | **Latency:** Low-latency API  
 The open-standard unified metadata platform and discovery catalog for enterprise data assets, tables, dashboards, and files. Provides real-time metadata indexing, end-to-end data lineage, semantic search, and AI-driven column/attribute classification.  
 * **Key Capabilities:** Unified metadata graph, automated ingestion connectors, data quality assertions, real-time search API.  
 * **Ideal For:** Data governance teams, active metadata discovery, and enterprise data mesh implementations.
 
 ### 8. [quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit)
-[![GitHub stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white)](https://github.com/quickwit-oss/quickwit/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white)](https://github.com/quickwit-oss/quickwit/stargazers)  
 **Stack:** Rust | **License:** AGPL-3.0 | **Latency:** Sub-second on cloud storage  
 A sub-second search and analytics engine built on Tantivy designed specifically for logs, traces, and document metadata stored directly on object storage (Amazon S3, MinIO, Azure Blob). Eliminates the need for SSD-attached cluster replicas.  
 * **Key Capabilities:** Native object storage decoupled architecture, OpenTelemetry native ingest, cost-efficient petabyte indexing.  
 * **Ideal For:** Cloud-scale log analytics, immutable event streams, and massive document metadata archives.
 
 ### 9. [blevesearch/bleve](https://github.com/blevesearch/bleve)
-[![GitHub stars](https://img.shields.io/github/stars/blevesearch/bleve?style=social&color=white)](https://github.com/blevesearch/bleve/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/blevesearch/bleve?style=social&color=white)](https://github.com/blevesearch/bleve/stargazers)  
 **Stack:** Go | **License:** Apache-2.0 | **Latency:** Millisecond  
 A modern text indexing library for Go. Provides document indexing, term queries, phrase queries, boolean queries, fuzzy queries, and numeric/date range queries over custom Go data structures and metadata.  
 * **Key Capabilities:** Go-native library, modular storage engines (BoltDB, Badgedb), faceted search, custom analyzers.  
 * **Ideal For:** Go microservices, embedded search utilities, and command-line search daemons.
 
 ### 10. [phiresky/ripgrep-all](https://github.com/phiresky/ripgrep-all)
-[![GitHub stars](https://img.shields.io/github/stars/phiresky/ripgrep-all?style=social&color=white)](https://github.com/phiresky/ripgrep-all/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/phiresky/ripgrep-all?style=social&color=white)](https://github.com/phiresky/ripgrep-all/stargazers)  
 **Stack:** Rust | **License:** AGPL-3.0 | **Latency:** High-throughput streaming  
 Extends `ripgrep` to search inside binary and complex file formats: PDFs, docx, epub, zip archives, tarballs, video subtitle streams, and embedded document metadata via converters like `pandoc`, `poppler`, and `ffmpeg`.  
 * **Key Capabilities:** Automatic unpacker integration, SQLite-backed caching of extracted text, recursive archive parsing.  
 * **Ideal For:** Full-text discovery across heterogeneous office documents and local personal knowledge archives.
 
 ### 11. [cboxdoerfer/fsearch](https://github.com/cboxdoerfer/fsearch)
-[![GitHub stars](https://img.shields.io/github/stars/cboxdoerfer/fsearch?style=social&color=white)](https://github.com/cboxdoerfer/fsearch/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/cboxdoerfer/fsearch?style=social&color=white)](https://github.com/cboxdoerfer/fsearch/stargazers)  
 **Stack:** C (GTK 3/4) | **License:** GPL-2.0 | **Latency:** Instantaneous  
 A standalone, lightning-fast file search utility for Unix and Linux desktops, inspired by Voidtools' *Everything* on Windows. It maintains an in-memory database of filenames and metadata attributes to surface instant search results as you type.  
 * **Key Capabilities:** Search-as-you-type GUI, regex and wildcard support, fast incremental index updates, low memory footprint.  
 * **Ideal For:** Linux desktop users needing instantaneous desktop file discovery.
 
 ### 12. [diskoverdata/diskover-community](https://github.com/diskoverdata/diskover-community)
-[![GitHub stars](https://img.shields.io/github/stars/diskoverdata/diskover-community?style=social&color=white)](https://github.com/diskoverdata/diskover-community/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/diskoverdata/diskover-community?style=social&color=white)](https://github.com/diskoverdata/diskover-community/stargazers)  
 **Stack:** Python / PHP / Elasticsearch | **License:** GPL-3.0 | **Latency:** Near-real-time  
 An open-source storage analytics, file metadata crawler, and search engine powered by Elasticsearch. Discovers, crawls, and indexes metadata across petabyte-scale NAS, NFS/SMB shares, and cloud storage to uncover cold storage, duplicate files, and storage growth patterns.  
 * **Key Capabilities:** Enterprise storage crawling, metadata analytics dashboards, disk utilization heatmaps, tag management.  
 * **Ideal For:** Storage administrators, IT operations, and media facilities managing massive multi-terabyte network storage.
 
 ### 13. [sist2app/sist2](https://github.com/sist2app/sist2)
-[![GitHub stars](https://img.shields.io/github/stars/sist2app/sist2?style=social&color=white)](https://github.com/sist2app/sist2/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/sist2app/sist2?style=social&color=white)](https://github.com/sist2app/sist2/stargazers)  
 **Stack:** C / Elasticsearch / SQLite | **License:** GPL-3.0 | **Latency:** Fast incremental  
 A high-performance filesystem indexer and search interface written in C with a Vue.js web UI. Extracts text, thumbnails, and rich EXIF/codec metadata from documents, media, and archives, supporting OCR via Tesseract and recursive parsing inside zip/tar files.  
 * **Key Capabilities:** Multi-threaded C crawling, OCR integration, thumbnail generation, disk utilization visualizations.  
 * **Ideal For:** Self-hosted file archives, media collections, and local server document repositories.
 
 ### 14. [duxlabs-dev/dux-search](https://github.com/duxlabs-dev/dux-search)
-[![GitHub stars](https://img.shields.io/github/stars/duxlabs-dev/dux-search?style=social&color=white)](https://github.com/duxlabs-dev/dux-search/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/duxlabs-dev/dux-search?style=social&color=white)](https://github.com/duxlabs-dev/dux-search/stargazers)  
 **Stack:** Go / Bleve | **License:** Apache-2.0 | **Latency:** Real-time watcher  
 A fast, configurable filesystem search daemon (invoked via `dsearch`) with built-in EXIF metadata extraction from images. Uses real-time file-system watchers to incrementally update its Bleve index when files are added or modified.  
 * **Key Capabilities:** Camera EXIF extraction (ISO, focal length, aperture, GPS bounding boxes), live file-watcher daemon, REST API.  
 * **Ideal For:** Photographers, media asset managers, and visual content catalogs.
 
 ### 15. [Indosaram/tamsaek](https://github.com/Indosaram/tamsaek)
-[![GitHub stars](https://img.shields.io/github/stars/Indosaram/tamsaek?style=social&color=white)](https://github.com/Indosaram/tamsaek/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/Indosaram/tamsaek?style=social&color=white)](https://github.com/Indosaram/tamsaek/stargazers)  
 **Stack:** Rust / Tantivy | **License:** MIT | **Latency:** Sub-second  
 A lightweight local file search engine built on Tantivy with full-text indexing, delivered as both a standalone CLI tool and a Model Context Protocol (MCP) server for AI coding agents.  
 * **Key Capabilities:** Zero external database dependencies, boolean & regex queries, MCP agent interoperability, extension filtering.  
 * **Ideal For:** Developers and AI assistants searching local repositories and document vaults.
 
 ### 16. [kimsgent/project-indexly](https://github.com/kimsgent/project-indexly)
-[![GitHub stars](https://img.shields.io/github/stars/kimsgent/project-indexly?style=social&color=white)](https://github.com/kimsgent/project-indexly/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/kimsgent/project-indexly?style=social&color=white)](https://github.com/kimsgent/project-indexly/stargazers)  
 **Stack:** Python / SQLite FTS5 | **License:** MIT | **Latency:** Fast local  
 A privacy-first, 100% offline local file search tool powered by SQLite FTS5. In addition to metadata extraction across CSV, JSON, Markdown, and images, it provides built-in statistical analysis pipelines and export options.  
 * **Key Capabilities:** Zero external telemetry, CSV/NDJSON dataset inspection, tag classification, PDF/Markdown report generation.  
 * **Ideal For:** Data analysts and researchers requiring strictly offline local file discovery.
 
 ### 17. [QingyaoAi/InfoGrep](https://github.com/QingyaoAi/InfoGrep)
-[![GitHub stars](https://img.shields.io/github/stars/QingyaoAi/InfoGrep?style=social&color=white)](https://github.com/QingyaoAi/InfoGrep/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/QingyaoAi/InfoGrep?style=social&color=white)](https://github.com/QingyaoAi/InfoGrep/stargazers)  
 **Stack:** Python | **License:** MIT | **Latency:** Incremental graph  
 A hybrid local file search engine and MCP server that constructs a directory and filename metadata relationship graph. Integrates seamlessly with Obsidian vaults for backlink-aware note and document discovery.  
 * **Key Capabilities:** Graph-expanded directory search, Obsidian vault parsing, multi-modal query modes, MCP agent tools.  
 * **Ideal For:** Knowledge workers, PKM researchers, and AI agents navigating linked notes.
 
 ### 18. [drivedex](https://github.com/ishandutta2007)
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-File-Metadata-Search?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Real-Time-File-Metadata-Search/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-File-Metadata-Search?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Real-Time-File-Metadata-Search/stargazers)  
 **Stack:** Python (stdlib) | **License:** MIT | **Latency:** Local sync  
 A lightweight utility designed to index cloud files (SharePoint Online, OneDrive, Google Drive) into a local encrypted SQLite database for instant offline search and Markdown extraction for LLMs.  
 * **Key Capabilities:** Cloud file change logs, DPAPI credential protection, zero external Python dependencies, docx-to-markdown conversion.  
@@ -301,7 +301,7 @@ Contributions, improvements, and updates are warmly welcomed!
 1. **Fork the repository** to your GitHub account.
 2. **Add the software entry** in alphabetical or star-ranked order with:
    * Project title and verified link.
-   * GitHub star count badge (`style=social&color=white`).
+   * GitHub Stars_Count badge (`style=social&color=white`).
    * Primary programming stack and license.
    * Specific description of real-time search, metadata parsing, or indexing capabilities.
 3. **Submit a clean pull request** with a concise summary of the addition.
