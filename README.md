@@ -5,10 +5,13 @@
 ![Awesome Real-Time File & Metadata Search](assets/banner.svg)
 
 <p align="center">
+  <a href="https://github.com/ishandutta200//Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-Time-File-Metadata-Search/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-File-Metadata-Search?style=social&color=white" alt="Repo Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-Time-File-Metadata-Search/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Real-Time-File-Metadata-Search?style=social&color=white" alt="Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-Time-File-Metadata-Search/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg?style=flat-square" alt="License"/></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 **A curated index of top-tier real-time file indexers, low-latency metadata search engines, full-text retrieval frameworks, and enterprise search platforms.**
@@ -47,6 +50,8 @@
   - [18. drivedex](#18-drivedex)
 - [📊 Architectural Comparison Matrix](#-architectural-comparison-matrix)
 - [🔎 Real-Time Search Technical Taxonomy](#-real-time-search-technical-taxonomy)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
 - [🤝 Contributing Guidelines](#-contributing-guidelines)
 - [📄 License](#-license)
 
@@ -269,6 +274,23 @@ Understanding how different search architectures achieve sub-second latency over
 │ • Large storage tree (diskover│              │ • Examples: tamsaek, InfoGrep  │
 └───────────────────────────────┘              └────────────────────────────────┘
 ```
+
+---
+
+## 💖 Support
+
+If you find this repository helpful, consider supporting its maintenance! Your support helps keep this curated list up-to-date with new real-time search engines, benchmarks, and architectural patterns:
+
+- ⭐ **Star** this repository on GitHub.
+- 🍴 **Fork** and contribute your favorite search and metadata tools.
+- 📢 **Share** this collection with fellow developers and communities.
+- ☕ **Buy a coffee / Sponsor**: Support ongoing maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Real-Time-File-Metadata-Search&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Real-Time-File-Metadata-Search&type=date&legend=top-left)
 
 ---
 
